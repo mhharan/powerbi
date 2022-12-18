@@ -1,0 +1,3 @@
+Are we using Average as a measure of central tendency indiscriminately
+Using Average as a measure of central tendency can be misleading or rather disastrous. 
+I used a sample hospital billing system dataset to benchmark their business against peer group. I was perplexed and realised how easily we get mislead by the Average value whereas it is nowhere near to the reality. The analysis of the dataset for a hospital showed that average billing per patient for a hospital was coming to 35K. What if I had built my sales forecast report based on this average whereas most of the cases of billing was in the range of 4K (the Modal value of the billing amount). What is your experience on using average, which is used indiscriminately?  
