@@ -1,3 +1,7 @@
+I wanted to make an apple-to-apple comparison of OLTP Schema vs Star Schema and took the calculation of Customer wise Sales as a use-case. In the case of OLTP Schema as we cannot create calculated column Sales (Qty * Rate) for the obvious reason that there is no single table having Qty and Rate as both are in different tables. However in the "Fact Table", as Qty and Rate are available we can simply get the Sales amount by multiplying these two at the row level. Sorry, my wrong, in my initial post I called the calculated column as Total Sales instead of Sales. 
+
+
+------------
 What would you prefer - 6 Line complex DAX code or 1 Line simple DAX code 
 In this post, I have shown how a sales transaction is recorded in an OLTP system and a DAX for calculating SALES. You will need a write a 6 line complex DAX code if your data is not modeled around Star Schema, whereas a Star Schema data model makes the DAX code simple and easy to write. 
 I would love to know about your challenges while modeling your data from OLTP to Star Schema.
