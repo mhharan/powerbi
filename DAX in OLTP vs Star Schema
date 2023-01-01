@@ -1,10 +1,3 @@
-DAX in OLTP vs Star Schema, a real-life usecase
-Lot has been posted stating that DAX becomes complex if the dataset is not in star schema aka data warehouse. I could not come across any satisfying representation substantiating this aspect. All the examples were revolving around converting date into date hierarchy in a fact table whereas this is not the real use case. 
-In this post I have shown how a sales transaction is recorded in an OLTP system and a DAX for calculating SALES is shown below it. In contrast I have shown how DAX becomes simple if the data is dimensioned as per star schema
-
-
-What would you prefer - 6 Line complex DAX code or 1 Line simple DAX code
-
-In this post I have shown how a sales transaction is recorded in an OLTP system and a DAX for calculating SALES. You will need a write a 6 line complex DAX code, if your data is not modelled around Star Schema, where as a Star Schema data model makes the DAX code simple and easy to write.
-
-Would love to know about challenges you faced while modelling your data from OLTP to Star Schema.
+What would you prefer - 6 Line complex DAX code or 1 Line simple DAX code 
+In this post, I have shown how a sales transaction is recorded in an OLTP system and a DAX for calculating SALES. You will need a write a 6 line complex DAX code if your data is not modeled around Star Schema, whereas a Star Schema data model makes the DAX code simple and easy to write. 
+I would love to know about your challenges while modeling your data from OLTP to Star Schema.
